@@ -4,8 +4,9 @@
 
 kniha1 = {}
 kniha2 = {}
+kniha3 = {}
 
-knihy = [kniha1, kniha2,]
+knihy = [kniha1, kniha2, kniha3]
 pocet_knih = 0
 
 
@@ -24,8 +25,16 @@ kniha2
     "autor": "Jaromír Soukup",
     "ISBN": "15s89dd85g9r26",
     "dostupny": True 
-
 }
+
+kniha3
+{
+    "nazev": "Dinokitty",
+    "autor": "Marek preichert",
+    "ISBN": "15s89dd85gs6556",
+    "dostupny": True 
+}
+
 
 for kniha in knihy:
     pocet_knih = pocet_knih + 1 
@@ -33,3 +42,5 @@ for kniha in knihy:
 # print(pocet_knih)
 # x= pocet_knih 
 # print("kniha" + str(x)) (FUNGUJE, lze zjistit kolik je knih a podle toho přidat knihu číslo ---)
+    
+
