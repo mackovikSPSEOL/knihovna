@@ -1,0 +1,35 @@
+#vytvořit slovnik s knihami
+
+
+
+kniha1 = {}
+kniha2 = {}
+
+knihy = [kniha1, kniha2,]
+pocet_knih = 0
+
+
+
+kniha1
+{
+    "nazev": "Jak mi spadl chléb",
+    "autor": "Jan Rohlík",
+    "ISBN": "15s89dd85g9r26",
+    "dostupny": True 
+}
+
+kniha2  
+{
+    "nazev": "Učení s panem Soukupem",
+    "autor": "Jaromír Soukup",
+    "ISBN": "15s89dd85g9r26",
+    "dostupny": True 
+
+}
+
+for kniha in knihy:
+    pocet_knih = pocet_knih + 1 
+
+# print(pocet_knih)
+# x= pocet_knih 
+# print("kniha" + str(x)) (FUNGUJE, lze zjistit kolik je knih a podle toho přidat knihu číslo ---)
