@@ -1,6 +1,8 @@
 #vytvořit slovnik s knihami
 
 
+import uzivatel
+
 
 kniha1 = {}
 kniha2 = {}
@@ -8,6 +10,9 @@ kniha3 = {}
 
 knihy = [kniha1, kniha2, kniha3]
 pocet_knih = 0
+
+uzivatel.prihlaseni()
+
 
 
 
