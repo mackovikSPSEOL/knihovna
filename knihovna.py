@@ -1,7 +1,8 @@
 #vytvořit slovnik s knihami
 
 
-import uzivatel
+from uzivatel import *
+
 
 
 kniha1 = {}
@@ -11,7 +12,7 @@ kniha3 = {}
 knihy = [kniha1, kniha2, kniha3]
 pocet_knih = 0
 
-uzivatel.prihlaseni()
+
 
 
 
@@ -48,4 +49,8 @@ for kniha in knihy:
 # x= pocet_knih 
 # print("kniha" + str(x)) (FUNGUJE, lze zjistit kolik je knih a podle toho přidat knihu číslo ---)
     
+
+prihlaseni()
+
+
 
