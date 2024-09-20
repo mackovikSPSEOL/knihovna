@@ -8,7 +8,7 @@ je_admin = False
 
 
 
-Jan = {}
+
 
 
 uzivatele= [
